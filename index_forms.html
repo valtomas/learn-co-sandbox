@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form!</title>
+      <link rel="stylesheet" href="./style.css">
+      <style>
+        label { color:#FFFFFF }
+      </style>
+    </head>
+ 
+    <body>
+      <h1 style="color:#FFFFFF"> Form tests</h1>
+      <form>
+        <div id="first">
+          <label class="mylabel" for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="John Doe"> 
+        </div>
+        <div>
+          <label class="mylabel" for="email">Email:</label>
+          <input type="email" name="email" id="email"  placeholder="john@doe.com"> 
+        </div>
+        
+        <div>
+          <div><label for="gender">Gender:</label></div>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+        </div>
+        <div>
+          <label for="car">Car:</label>
+          <select>
+           <option value="volvo">Volvo</option>
+           <option value="saab">Saab</option>
+           <option value="mercedes">Mercedes</option>
+           <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div>
+          <label for="message"> Message: </label>
+          <textarea maxlenght="250" placeholder="Please share any thoughts with us!"></textarea>
+        </div>
+        <div>
+          <label for="subscribe">Subscribe?</label>
+          <input type="checkbox" id="subscribe" value="yes" name="subscribe">
+        </div>
+        <div>
+          <input type="submit" value="Subscribe">
+        </div>
+      </form>
+      
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/98LoiMZ59Jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <audio controls scr="" ></audio>
+      <video controls scr="" ></video>
+    </body>
+</html>
